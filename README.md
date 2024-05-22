@@ -34,27 +34,27 @@ Follow these steps to set up and run the project locally.
 
 ## Setting up environment
 ### Creating environment
-``virtualenv venv``
+``virtualenv venv``  
 ### Activate environment
-``source venv/Scripts/activate``
+``source venv/Scripts/activate``  
 ### Install dependencies
-```pip install -r requirements.txt```
+```pip install -r requirements.txt```  
 
 # Run the following commands to tun this project locally
 ## start backend 
-`python app.py`
+`python app.py`  
 ## strat front end client
-`streamlit run client.py`
+`streamlit run client.py`  
 
 This will start the app having this interface
 ![alt text](<Screenshot (332).png>)
 
 # Setting up gihub
-`git init`
-`git branch -M main`
-`add files not to be tracked in .gitignore`
-`git add .`
-`git commit -m "your commit message"`
-`git branch -M main`
-`git remote add origin https://github.com/azmd801/written-number-image-classifier.git`
-`git push -u origin main`
+`git init`  
+`git branch -M main`  
+`add files not to be tracked in .gitignore`  
+`git add .` 
+`git commit -m "your commit message"` 
+`git branch -M main` 
+`git remote add origin https://github.com/azmd801/written-number-image-classifier.git` 
+`git push -u origin main` 
