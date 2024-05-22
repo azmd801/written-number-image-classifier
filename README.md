@@ -26,8 +26,8 @@ Follow these steps to set up and run the project locally.
 
    Pull the repository to your local system using the following command:
    
-   `git clone https://github.com/azmd801/written-number-image-classifier`
-   `cd https://github.com/azmd801/written-number-image-classifier`
+   `git clone https://github.com/azmd801/written-number-image-classifier`  
+   `cd https://github.com/azmd801/written-number-image-classifier`  
 
 
 
@@ -50,11 +50,11 @@ This will start the app having this interface
 ![alt text](<Screenshot (332).png>)
 
 # Setting up gihub
-`git init`  
+`git init`   
+`git branch -M main`   
+`add files not to be tracked in .gitignore`   
+`git add .`  
+`git commit -m "your commit message"`  
 `git branch -M main`  
-`add files not to be tracked in .gitignore`  
-`git add .` 
-`git commit -m "your commit message"` 
-`git branch -M main` 
-`git remote add origin https://github.com/azmd801/written-number-image-classifier.git` 
-`git push -u origin main` 
+`git remote add origin https://github.com/azmd801/written-number-image-classifier.git`  
+`git push -u origin main`   
