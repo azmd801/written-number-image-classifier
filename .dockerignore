@@ -1,0 +1,29 @@
+# Exclude usual suspect files and directories
+.dockerignore
+.dockerignore.dockerignore
+
+# Exclude version control metadata
+.git
+.gitignore
+
+# Exclude Python virtual environments
+venv/
+env/
+
+# Exclude pip caches
+pip-wheel-metadata/
+pip-cache/
+
+Frontend
+logs
+model
+README.md
+license.md
+client.py
+test.py
+requirements.txt
+setup.py
+training_notebooks
+test_image
+app_interface.png
+post_request.png

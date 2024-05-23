@@ -40,7 +40,7 @@ Follow these steps to set up and run the project locally.
 ### Install dependencies
 ```pip install -r requirements.txt```  
 
-# Run the following commands to tun this project locally
+# Run the following commands to run this project locally 
 ## start backend 
 `python app.py`  
 ## strat front end client
@@ -48,6 +48,33 @@ Follow these steps to set up and run the project locally.
 
 This will start the app having this interface
 ![alt text](<Screenshot (332).png>)
+
+
+# Follow these steps to run this project in container
+
+## Containerising Frontend app
+#### change director
+`cd Frontend`
+#### creatng image for the front end app
+`docker build -t username/reponame:tag .`
+**for my case
+`docker build -t azmd801/written-number-classifier-frontend:latest .`
+#### pushing image to dockerhub
+`docker push azmd801/written-number-classifier-frontend:latest`
+
+## Containerising backend app
+#### change director
+`cd ../`
+#### creating image for the backend app
+`docker build -t azmd801/written-number-classifier-backend:latest .`
+#### pushing image to dockerhub
+`docker push -t azmd801/written-number-classifier-backend:latest`
+
+## Integrating frontend and backend apps as multconainer service using docker compose
+#### creat yaml file as privided in this repo `docker-compose.yml`
+#### run this command to start this application
+`docker-compose up`
+
 
 # Setting up gihub
 `git init`   

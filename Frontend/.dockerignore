@@ -1,0 +1,16 @@
+# Exclude usual suspect files and directories
+.dockerignore
+.dockerignore.dockerignore
+
+# Exclude version control metadata
+.git
+.gitignore
+
+# Exclude Python virtual environments
+venv/
+env/
+
+# Exclude pip caches
+pip-wheel-metadata/
+pip-cache/
+
